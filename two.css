@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+        margin: 0%;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar{
+    background-color:#f5822a;
+
+}
+
+.nav-link{
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+}
+
+/* home */
+.bgimg{
+  background-image: url('https://img.freepik.com/free-photo/ice-cream-concept-with-copyspace-left-fruits_23-2147811065.jpg?t=st=1710476452~exp=1710480052~hmac=7260238c1b4cfe9062f0a8de4205725432aaf50b44fd35d2d7e926ad586d2e25&w=996');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading{
+    color: black;
+    text-shadow: 1px 2px 2px whitesmoke;
+    font-size: 60px;
+    
+}
+
+.para{
+    color: rgba(0, 0, 0, 0.813);
+    font-size: 30px;
+    text-shadow: 1px 2px 3px wheat;
+
+
+}
+
+.one{
+    font-size: 20px;
+}
+
+.bgimg2{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+}
+
+.three{
+    aspect-ratio: 2/2;
+    width: 100%;
+}

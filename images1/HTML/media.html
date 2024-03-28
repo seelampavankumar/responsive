@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            /* display: inline; */
+            /* display: block; */
+            /* display: inline-block; */
+            /* display: none; */
+        }
+        .one{
+            background-color: brown;
+        }
+        @media screen and (max-width:1200px){
+            .one{
+                background-color: palevioletred;
+            }
+            
+        }
+        @media screen and (max-width:576px){
+           .one{
+                background-color: yellow;
+                color: brown;
+           }
+        }
+        @media screen and (min-width:577px) and (max-width:760px)
+        {
+            .one{
+                background-color: aqua;
+                color: blue;
+            }
+        }
+        @media screen and (min-width:769px) and (max-width:992px)
+        {
+            .one{
+                background-color: green;
+                color: palegoldenrod;
+            }
+        }
+        @media screen and (min-width:993px) and (max-width:1200px)
+        {
+            .one{
+                background-color:blueviolet;
+                color:azure;
+            }
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <!-- <ul>
+            <li>Apple</li>
+            <li>banana</li>
+            <li>grape</li>
+             
+        </ul> -->
+        <h1 class="one">Welcome to home</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+.first
+{
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    text-align: center;
+    margin-top: 2%;
+}
+
+body{
+    background-image: url('https://cdn.dribbble.com/users/277921/screenshots/4223608/gw-dribbble.gif');
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 500px;
+    box-shadow: 2px 3px 40px red;
+    margin-left:10%;
+    margin-bottom: 10%;
+    /* padding-bottom: 3%;
+   */ margin-top:1%; 
+    
+}
+label{
+color:green;
+font-size: 20px;
+font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-left:3%;
+}
+
+input[type="text"],[type="email"],[type="password"]{
+
+    width: 90%;
+    padding: 1%;
+    box-shadow: 1px 2px 3px gray;
+    border-radius: 10px;
+    border: none;
+    margin-left:2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    font-size: 20px;
+    
+}
+input[type=checkbox]{
+    accent-color: green;
+    margin-right: 3%;
+    margin-left: 3%;
+    
+}
+button{
+    border: none;
+    margin-left: 9%;
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 1%;
+}
+button:hover{
+    background-color: #29a729;
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+}
+
+a{
+    color: green;
+    font-size: 19px;
+    text-decoration: none;
+}
